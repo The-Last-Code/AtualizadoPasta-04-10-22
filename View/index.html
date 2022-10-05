@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../View/style/styleDash.css">
+    <title>Dashboard</title>
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="sidebar">
+    <div class="logo-details">
+      <img class="logo-img" src="../View/img/logopb.png" alt="">
+      <span class="logo_name">SciLink</span>
+    </div>
+      <ul class="nav-links">
+        <li>
+          <a href="#" class="active">
+            <i class='bx bx-comment-detail'></i>
+            <span class="links_name">Perguntas</span>
+            
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-hash'></i>
+            <span class="links_name">Tags</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-comment-error'></i>
+            <span class="links_name">Sem Respostas</span>
+          </a>
+        </li>
+       
+        <li class="log_out">
+          <a href="../View/LoginCadastro.html">
+            <i class='bx bx-log-out'></i>
+            <span class="links_name">Sair</span>
+          </a>
+        </li>
+      </ul>
+  </div>
+
+  <section class="home-section">
+    <nav class="header">
+
+      <div class="sidebar-button">
+        <i class='bx bx-menu sidebarBtn'></i>
+        <span class="dashboard">Perguntas</span>
+      </div>
+      <div class="search-box">
+        <input type="text" placeholder="Pesquisar...">
+        <i class='bx bx-search'></i>
+      </div>
+
+     <a class="btncriar" href="../View/FormularioPubli.html"><i class="bx bx-folder-plus"></i> Novo</a>
+
+
+      <div class="profile-details">
+        <div class="dropdown">
+          <button onclick="myFunction()" class="dropbtn">
+            <img src="../View/img/159413615_892115304992832_5153142746703666823_n.jpg" alt="cientista">
+            <span class="admin_name">Mano Galvs</span>
+            <i class='bx bx-chevron-down' ></i>
+          </button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="../View/PaginaPerfil.html"><i class='bx bxs-edit'></i>Editar Perfil</a>
+            <a href="../View/LoginCadastro.html"><i class='bx bx-walk'></i>Sair</a>
+          </div>
+        </div> 
+      </div>
+    </nav>
+
+    <main>
+      <article class="principal">
+      <div class="pub">
+        <h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </h2>
+        <div class="baixo">
+          <p>Lorem</p>
+          <p>Ipsum</p>
+          <p>LoremImpsum</p>
+        </div>
+        <p class="p">Data da publicação: 99/99/9999</p>
+
+      </div>
+    </article>
+    </main>
+
+  </section>
+
+</body>
+</html>
+
+<script src="../View/script/script.js"></script>
